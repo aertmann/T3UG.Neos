@@ -4,6 +4,11 @@
  */
 page = Page {
 	head {
+		titleTag = TYPO3.TypoScript:Tag {
+			tagName = 'title'
+			content = ${q(node).property('title')}
+		}
+
 		stylesheets = Template
 		stylesheets {
 			templatePath = 'resource://T3UG.Neos/Private/Templates/Page/Default.html'
