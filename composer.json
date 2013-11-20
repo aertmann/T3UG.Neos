@@ -1,0 +1,14 @@
+{
+    "name": "t3ug/neos",
+    "type": "typo3-flow-site",
+    "description": null,
+    "version": null,
+    "require": {
+        "typo3/flow": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "T3UG\\Neos": "Classes"
+        }
+    }
+}
