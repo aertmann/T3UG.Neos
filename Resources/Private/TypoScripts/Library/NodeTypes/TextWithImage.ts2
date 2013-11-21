@@ -1,0 +1,4 @@
+# TextWithImage TS Object
+prototype(TYPO3.Neos.NodeTypes:TextWithImage) {
+	imageClassName = 'image'
+}

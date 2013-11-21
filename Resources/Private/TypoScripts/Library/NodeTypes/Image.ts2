@@ -1,0 +1,4 @@
+# Image TS Object
+prototype(TYPO3.Neos.NodeTypes:Image) {
+	imageClassName = 'image'
+}

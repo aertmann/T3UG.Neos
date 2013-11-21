@@ -250,10 +250,11 @@
 			outline: 0;
 		}
 
-			.image img
+			img.image
 			{
 				display: block;
 				width: 100%;
+				height: auto;
 			}
 
 		.image-centered
