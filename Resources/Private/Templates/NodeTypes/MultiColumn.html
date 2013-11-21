@@ -1,0 +1,16 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+{namespace ts=TYPO3\TypoScript\ViewHelpers}
+<neos:contentElement node="{node}" class="row">
+	<div class="12u">
+		<section>
+			<header class="major">
+				<h2>My Portfolio</h2>
+			</header>
+			<div>
+				<div class="row">
+					<ts:render path="columns" />
+				</div>
+			</div>
+		</section>
+	</div>
+</neos:contentElement>

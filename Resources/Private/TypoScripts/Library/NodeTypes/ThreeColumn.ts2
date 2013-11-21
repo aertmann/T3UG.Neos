@@ -1,0 +1,9 @@
+# Three Column TS Object
+prototype(TYPO3.Neos.NodeTypes:ThreeColumn) {
+	templatePath = 'resource://T3UG.Neos/Private/Templates/NodeTypes/MultiColumn.html'
+	columns.itemRenderer = T3UG.Neos:ThreeColumnItem
+}
+
+prototype(T3UG.Neos:ThreeColumnItem) < prototype(TYPO3.Neos.NodeTypes:MultiColumnItem) {
+	className = '4u'
+}
