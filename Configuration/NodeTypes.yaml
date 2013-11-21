@@ -10,6 +10,10 @@
 #      type: 'TYPO3.Neos:ContentCollection'
 
 'TYPO3.Neos.NodeTypes:ThreeColumn':
+  ui:
+    inspector:
+      groups:
+        column: ~
   properties:
     title:
       type: string
