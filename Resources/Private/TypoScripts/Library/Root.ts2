@@ -3,6 +3,7 @@ include: NodeTypes/TwoColumn.ts2
 include: NodeTypes/ThreeColumn.ts2
 include: NodeTypes/Image.ts2
 include: NodeTypes/TextWithImage.ts2
+include: NodeTypes/Teaser.ts2
 
 /**
  * Root TypoScript template for the T3UG Neos Demo Site

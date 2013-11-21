@@ -1,0 +1,25 @@
+{namespace neos=TYPO3\Neos\ViewHelpers}
+<neos:contentElement node="{node}">
+	<section class="box">
+		<f:render partial="Image" arguments="{
+			node: node,
+			image: image,
+			alternativeText: alternativeText,
+			title: title,
+			link: link,
+			hasCaption: hasCaption,
+			caption: caption,
+			maximumWidth: maximumWidth,
+			maximumHeight: maximumHeight,
+			imageClassName: imageClassName,
+			fluidTemplateTsObject: fluidTemplateTsObject
+		}" />
+		<header>
+			<neos:contentElement.editable tag="h3" property="title">{title -> f:format.raw()}</neos:contentElement.editable>
+		</header>
+		<neos:contentElement.editable property="text">{text -> f:format.raw()}</neos:contentElement.editable>
+		<footer>
+			<neos:contentElement.editable property="footer">{footer -> f:format.raw()}</neos:contentElement.editable>
+		</footer>
+	</section>
+</neos:contentElement>

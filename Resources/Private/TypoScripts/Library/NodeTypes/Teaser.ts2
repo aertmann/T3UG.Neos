@@ -1,0 +1,6 @@
+# Teaser TS Object
+prototype(T3UG.Neos:Teaser) < prototype(TYPO3.Neos.NodeTypes:TextWithImage) {
+	title.@process.convertNodeUris = TYPO3.Neos:ConvertNodeUris
+	footer.@process.addClassesToLinks = ${String.replace(value, '<a', '<a class="button alt"')}
+	footer.@process.convertNodeUris = TYPO3.Neos:ConvertNodeUris
+}

@@ -36,3 +36,26 @@
         inlineEditable: TRUE
         aloha:
           format: ['sub', 'sup', 'removeFormat']
+
+'T3UG.Neos:Teaser':
+  superTypes:
+    - 'TYPO3.Neos.NodeTypes:TextWithImage'
+    - 'TYPO3.Neos.NodeTypes:Headline'
+  ui:
+    label: 'Teaser'
+    icon: 'icon-star'
+  properties:
+    title:
+      defaultValue: 'Enter headline here'
+      ui:
+        aloha:
+          format: ['sub', 'sup', 'removeFormat']
+          link: []
+    footer:
+      type: string
+      defaultValue: ''
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          format: ['b', 'i', 'u', 'sub', 'sup', 'removeFormat']
+          link: ['a']
