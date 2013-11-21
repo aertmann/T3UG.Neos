@@ -2,6 +2,7 @@
 prototype(TYPO3.Neos.NodeTypes:ThreeColumn) {
 	templatePath = 'resource://T3UG.Neos/Private/Templates/NodeTypes/MultiColumn.html'
 	columns.itemRenderer = T3UG.Neos:ThreeColumnItem
+	title = ${q(node).property('title')}
 }
 
 prototype(T3UG.Neos:ThreeColumnItem) < prototype(TYPO3.Neos.NodeTypes:MultiColumnItem) {

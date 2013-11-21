@@ -8,3 +8,13 @@
 #  childNodes:
 #    sidebar:
 #      type: 'TYPO3.Neos:ContentCollection'
+
+'TYPO3.Neos.NodeTypes:ThreeColumn':
+  properties:
+    title:
+      type: string
+      defaultValue: 'Enter headline here'
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          format: ['sub', 'sup', 'removeFormat']
