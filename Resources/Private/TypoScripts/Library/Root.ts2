@@ -26,7 +26,10 @@ page = Page {
 		sectionName = 'body'
 
 		parts {
-			menu = Menu
+			menu = Menu {
+				entryLevel = 1
+				maximumLevels = 3
+			}
 		}
 
 		content {
