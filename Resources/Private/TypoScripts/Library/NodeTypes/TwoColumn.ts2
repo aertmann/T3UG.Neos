@@ -1,0 +1,10 @@
+# Two Column TS Object
+prototype(TYPO3.Neos.NodeTypes:TwoColumn) {
+	templatePath = 'resource://T3UG.Neos/Private/Templates/NodeTypes/MultiColumn.html'
+	columns.itemRenderer = T3UG.Neos:TwoColumnItem
+	title = ${q(node).property('title')}
+}
+
+prototype(T3UG.Neos:TwoColumnItem) < prototype(TYPO3.Neos.NodeTypes:MultiColumnItem) {
+	className = '6u'
+}

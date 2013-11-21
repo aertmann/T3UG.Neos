@@ -9,6 +9,20 @@
 #    sidebar:
 #      type: 'TYPO3.Neos:ContentCollection'
 
+'TYPO3.Neos.NodeTypes:TwoColumn':
+  ui:
+    inspector:
+      groups:
+        column: ~
+  properties:
+    title:
+      type: string
+      defaultValue: 'Enter headline here'
+      ui:
+        inlineEditable: TRUE
+        aloha:
+          format: ['sub', 'sup', 'removeFormat']
+
 'TYPO3.Neos.NodeTypes:ThreeColumn':
   ui:
     inspector:

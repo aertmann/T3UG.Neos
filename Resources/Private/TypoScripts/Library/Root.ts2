@@ -1,4 +1,5 @@
 namespace: TypoScript=TYPO3.TypoScript
+include: NodeTypes/TwoColumn.ts2
 include: NodeTypes/ThreeColumn.ts2
 
 /**
