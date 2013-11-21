@@ -116,6 +116,8 @@
 			<!-- Main Wrapper -->
 			<div id="main-wrapper">
 				<div class="container">
+					{content.main -> f:format.raw()}
+
 					<div class="row">
 						<div class="12u">
 
@@ -401,9 +403,6 @@
 					</div>
 				</section>
 
-			</div>
-			<div class="content">
-				{content.main -> f:format.raw()}
 			</div>
 		</f:section>
 	</body>
