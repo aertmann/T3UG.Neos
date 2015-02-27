@@ -17,7 +17,7 @@
   properties:
     title:
       type: string
-      defaultValue: 'Enter headline here'
+      defaultValue: 'Enter headline here2'
       ui:
         inlineEditable: TRUE
         aloha:
