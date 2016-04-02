@@ -7,7 +7,7 @@
 #'TYPO3.Neos:Page':
 #  childNodes:
 #    sidebar:
-#      type: 'TYPO3.Neos:ContentCollection'
+#      type: 'TYPO3.Neos:ContenctCollection'
 
 'TYPO3.Neos.NodeTypes:TwoColumn':
   ui:
